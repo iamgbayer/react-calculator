@@ -12,14 +12,17 @@ body {
 	background-color: #fff;
 	border-radius: 50%;
 	height: 600px;
-	margin: 20px auto;
+	margin: auto;
 	width: 600px;
 }
-h1 {
+a {
 	color: #495678;
 	font-size: 30px;	
-	padding-top: 70px;
+	margin-top: 20px;
+	padding-top: 50px;
+	display: block;
 	text-align: center;
+	text-decoration: none;
 }
 form {
 	background-color: #495678;
@@ -86,9 +89,4 @@ form {
   	-ms-transform: translateY(2px);
   	-moz-tranform: translateY(2px);
   	transform: translateY(2px);
-}
-a {
-	color: #fff;
-	text-decoration: none;
-	text-align: center;
 }
