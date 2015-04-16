@@ -3,13 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Simple Calculator</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:300'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/calculator.css">
 </head>
 <body>
 	<div class="center">
-		<a href="https://github.com/guuibayer/simple-calculator" target="_blank">Pure CSS, JS Calculator</a>
+		<h1>Pure CSS, JS Calculator</h1>
+		<a href="https://github.com/guuibayer/simple-calculator" target="_blank"><i class="fa fa-github"></i></a>
 		<form name="calculator">
+			<input type="button" id="clear" class="btn other" value="C">
 			<input type="text" id="display">
 				<br>
 			<input type="button" class="btn number" value="7" onclick="get(this.value);">
@@ -29,7 +32,7 @@
 				<br>
 			<input type="button" class="btn number" value="0" onclick="get(this.value);">
 			<input type="button" class="btn operator" value="." onclick="get(this.value);">
-			<input type="button" id="clear" class="btn other" value="C">
+			<input type="button" class="btn operator" value="/" onclick="get(this.value);">			
 			<input type="button" class="btn other" value="=" onclick="calculates();">
 		</form>
 	</div>
