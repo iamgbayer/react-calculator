@@ -15,7 +15,7 @@ body {
 	margin: auto;
 	width: 600px;
 }
-a {
+h1 {
 	color: #495678;
 	font-size: 30px;	
 	margin-top: 20px;
@@ -24,35 +24,46 @@ a {
 	text-align: center;
 	text-decoration: none;
 }
+a {
+	color: #495678;
+	font-size: 30px;	
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 20px;
+}
 form {
 	background-color: #495678;
 	box-shadow: 4px 4px #3d4a65;
 	margin: 40px auto;
 	padding: 40px 0 30px 40px;	
-	width: 255px;
+	width: 280px;
 }
 .btn {
+	outline: none;
 	cursor: pointer;
 	font-size: 20px;
 	height: 45px;
-	margin: 5px 0 5px 0;
+	margin: 5px 0 5px 10px;
 	width: 45px;
+}
+.btn:first-child {
+	margin: 5px 0 5px 10px;
 }
 .btn, #display, form {
 	border-radius: 25px;
 }
-.btn:nth-child(1n), #display {
-	margin: 5px 0 5px 5px;
-}
 #display {
+	outline: none;
 	background-color: #98d1dc;
 	box-shadow: inset 6px 6px 0px #3facc0;
 	color: #dededc;
 	font-size: 20px;
-	height: 40px;
+	height: 47px;
 	text-align: right;
-	width: 205px;
+	width: 165px;
 	padding-right: 10px;
+	margin-left: 10px;
 }
 .number {
 	background-color: #72778b;
