@@ -74,7 +74,7 @@ form {
 	box-shadow: 0 2px #5f6680;
   	-webkit-transform: translateY(2px);
   	-ms-transform: translateY(2px);
-  	-moz-tranform: translateY(2px);
+  	-moz-transform: translateY(2px);
   	transform: translateY(2px);
 }
 .operator {
@@ -86,7 +86,7 @@ form {
 	box-shadow: 0 2px #bebebe;
   	-webkit-transform: translateY(2px);
   	-ms-transform: translateY(2px);
-  	-moz-tranform: translateY(2px);
+  	-moz-transform: translateY(2px);
   	transform: translateY(2px);
 }
 .other {
@@ -98,6 +98,6 @@ form {
 	box-shadow: 0 2px #e76a3d;
   	-webkit-transform: translateY(2px);
   	-ms-transform: translateY(2px);
-  	-moz-tranform: translateY(2px);
+  	-moz-transform: translateY(2px);
   	transform: translateY(2px);
 }
