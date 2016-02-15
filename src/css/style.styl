@@ -1,3 +1,6 @@
+$white 	= #fff
+$roboto = 'Roboto', sans-serif
+
 *
 	padding 0
 	margin 0
@@ -7,4 +10,47 @@ body
 	height 100vh	
 	background #e8eff5
 	background linear-gradient(to bottom,  #e8eff5 0%,#8292b2 31%,#8292b2 31%,#976281 59%,#ab3a50 100%)
-	filter blur(100%)
+	display flex
+	justify-content center
+	align-items center
+
+.calculator-display
+	text-align right
+	padding 0 15px
+	width 240px
+	height 90px
+	border-radius 7px 7px 0 0
+	background rgba(199,42,92,1)
+	background -moz-linear-gradient(-45deg, rgba(199,42,92,1) 0%, rgba(199,42,92,1) 43%, rgba(139,61,120,1) 100%)
+	background -webkit-gradient(left top, right bottom, color-stop(0%, rgba(199,42,92,1)), color-stop(43%, rgba(199,42,92,1)), color-stop(100%, rgba(139,61,120,1)))
+	background -webkit-linear-gradient(-45deg, rgba(199,42,92,1) 0%, rgba(199,42,92,1) 43%, rgba(139,61,120,1) 100%)
+	background -o-linear-gradient(-45deg, rgba(199,42,92,1) 0%, rgba(199,42,92,1) 43%, rgba(139,61,120,1) 100%)
+	background -ms-linear-gradient(-45deg, rgba(199,42,92,1) 0%, rgba(199,42,92,1) 43%, rgba(139,61,120,1) 100%)
+	background linear-gradient(135deg, rgba(199,42,92,1) 0%, rgba(199,42,92,1) 43%, rgba(139,61,120,1) 100%)
+	
+	.value,
+	.expressions
+		font-family $roboto
+		color $white
+		font-weight 100
+		overflow hidden
+
+	.value
+		font-size 34px
+		padding-top 15px
+
+	.expressions
+		font-size 14px			
+		display inline-block
+
+.calculator-keys
+	width 240px
+	height 300px
+	border-radius 0 0 7px 7px
+	background rgba(183,69,116,1)
+	background -moz-linear-gradient(-45deg, rgba(183,69,116,1) 0%, rgba(150,80,131,1) 28%, rgba(124,88,145,1) 64%, rgba(71,105,169,1) 100%)
+	background -webkit-gradient(left top, right bottom, color-stop(0%, rgba(183,69,116,1)), color-stop(28%, rgba(150,80,131,1)), color-stop(64%, rgba(124,88,145,1)), color-stop(100%, rgba(71,105,169,1)))
+	background -webkit-linear-gradient(-45deg, rgba(183,69,116,1) 0%, rgba(150,80,131,1) 28%, rgba(124,88,145,1) 64%, rgba(71,105,169,1) 100%)
+	background -o-linear-gradient(-45deg, rgba(183,69,116,1) 0%, rgba(150,80,131,1) 28%, rgba(124,88,145,1) 64%, rgba(71,105,169,1) 100%)
+	background -ms-linear-gradient(-45deg, rgba(183,69,116,1) 0%, rgba(150,80,131,1) 28%, rgba(124,88,145,1) 64%, rgba(71,105,169,1) 100%)
+	background linear-gradient(135deg, rgba(183,69,116,1) 0%, rgba(150,80,131,1) 28%, rgba(124,88,145,1) 64%, rgba(71,105,169,1) 100%)
