@@ -1,4 +1,4 @@
-# Calculator component
+# React Calculator
 
 ## Requirements
 * node
