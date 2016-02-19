@@ -1,4 +1,5 @@
 # React Calculator
+[View the DEMO](http://www.bayer.ninja/Calculator/)
 
 ## Requirements
 * node
