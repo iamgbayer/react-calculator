@@ -1,5 +1,6 @@
-$white 	= #fff
-$roboto = 'Roboto', sans-serif
+$white 	       = #fff
+$white-opacity = rgba(255, 255, 255, 0.3) 
+$roboto        = 'Roboto', sans-serif
 
 *
 	padding 0
@@ -44,6 +45,7 @@ body
 		display inline-block
 
 .calculator-keys
+	overflow hidden
 	width 240px
 	height 300px
 	border-radius 0 0 7px 7px
@@ -54,3 +56,39 @@ body
 	background -o-linear-gradient(-45deg, rgba(183,69,116,1) 0%, rgba(150,80,131,1) 28%, rgba(124,88,145,1) 64%, rgba(71,105,169,1) 100%)
 	background -ms-linear-gradient(-45deg, rgba(183,69,116,1) 0%, rgba(150,80,131,1) 28%, rgba(124,88,145,1) 64%, rgba(71,105,169,1) 100%)
 	background linear-gradient(135deg, rgba(183,69,116,1) 0%, rgba(150,80,131,1) 28%, rgba(124,88,145,1) 64%, rgba(71,105,169,1) 100%)
+
+	.button-default
+		height 60px
+		display inline-block
+		vertical-align middle
+		border none
+		cursor pointer
+		background none
+		color $white
+		font-size 16px
+		font-family $roboto
+		text-align center
+		outline none
+	
+	.button-normal
+		border-right 1px solid $white-opacity
+		border-bottom 1px solid $white-opacity
+		width 60px
+	
+	.button-normal-two
+		width 60px
+		border-right 1px solid $white
+	
+	.button-overlay
+		background rgba(255, 255, 255, 0.2)
+		width 60px
+		border-bottom 1px solid $white-opacity
+	
+	.button-white
+		background $white
+		color #c02c5e
+		width 60px
+	
+	.button-large
+		width 120px
+		border-right 1px solid $white-opacity

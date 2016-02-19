@@ -19,7 +19,7 @@ module.exports = {
       {
         test: /\.styl$/,
         loaders: ['style-loader','css-loader','stylus-loader'],
-        include: path.join(__dirname, 'src/css')
+        include: path.join(__dirname, 'src/styl')
       },
       {
         test: /\.jsx?$/,

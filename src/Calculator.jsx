@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import css from './css/style.styl';
+import css from './styl/style.styl';
 
 /* Import Components */
 import CalculatorDisplay from './components/CalculatorDisplay';
