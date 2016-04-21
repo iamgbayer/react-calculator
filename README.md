@@ -1,5 +1,5 @@
 # React Calculator
-[View the DEMO](http://www.bayer.ninja/Calculator/)
+[View the DEMO](http://guuibayer.github.io/React-calculator)
 
 ## Requirements
 * node
