@@ -1,15 +1,15 @@
-var webpack = require('webpack'),
-    path    = require('path');
+var webpack = require('webpack')
+    , path = require('path');
 
 module.exports = {
   context : path.join(__dirname, './'),
   entry: './src/Calculator.jsx',
   output: {
-    path: path.join(__dirname, 'build'),
-    filename: 'min.bundle.js'
+    path: path.join(__dirname, 'public'),
+    filename: 'bundle.min.js'
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({minimize: true})  
+    new webpack.optimize.UglifyJsPlugin({minimize: true})
   ],
   resolve: {
     extensions: ['', '.js', '.jsx','.styl']
